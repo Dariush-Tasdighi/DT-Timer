@@ -25,7 +25,7 @@ public partial class TimerForm : Form
 			new TimeSpan(hours: 0, minutes: 0, seconds: 5);
 
 		MyLastThresholdTimeSpan =
-			new TimeSpan(hours: 0, minutes: 0, seconds: 5);
+			new TimeSpan(hours: 0, minutes: 0, seconds: 10);
 
 		if (MyFirstThresholdTimeSpan.Ticks == 0)
 		{

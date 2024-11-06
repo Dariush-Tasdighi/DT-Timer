@@ -18,6 +18,8 @@ public partial class MainForm : Form
 	/// </summary>
 	private void MainForm_Load(object sender, EventArgs e)
 	{
+		Text = "DT Timer - Version 1.1";
+
 		// For Demo:
 		//hoursTextBox.Text = "0";
 		//minutesTextBox.Text = "0";
@@ -26,9 +28,7 @@ public partial class MainForm : Form
 		// For Production:
 		hoursTextBox.Text = "0";
 		minutesTextBox.Text = "14";
-		secondsTextBox.Text = "50";
-
-		Text = $"DT Timer - Version 1.0";
+		secondsTextBox.Text = "55";
 	}
 
 	private void TextBox_KeyPress(object sender, KeyPressEventArgs e)
